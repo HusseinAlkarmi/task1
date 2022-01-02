@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ebebebd8 ;
+}
+header{
+    height: 60px;
+    background-color: #2b3a39;
+    box-shadow: 0px 1px 1.7em #bccac9;
+}
+nav{
+    text-align: center;
+}
+
+nav img{
+    
+    width: 70px;
+    float: left;
+    position: relative;
+    top: 8px;
+    left: 30px;
+}
+
+nav div{
+    display: inline-block;
+    line-height: 60px;
+    transform: translateX(-10%);
+}
+nav div a{
+    font-size: 19px;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: #f9f9f9;
+    
+}
+
+nav div a:hover{
+    color: #bccac9;
+    border-bottom: #bccac9 solid 5px;
+}
+
+footer{
+    margin-top: 30px;
+    background-color: #2b3a39;
+    height: 240px;
+    width: 100%;
+    /* display: inline-block; */
+}
+
+#footerDiv{
+padding-top: 20px;
+/* display: inline-block; */
+}
+
+#footerDiv div{
+    width: 25%;
+    display: inline-block;
+
+
+}
+#title{
+    text-align: center;
+    margin-top: 20px;
+    padding: 0px;
+    color: #2b3a39;  
+}
+
+#hrTitle{
+    margin-top: 10px;
+    width: 35%;
+    transform: translateX(92%);
+    height: 5px;
+    background-color: #2b3a39;
+    border-radius: 20%;
+}
+
+.placeInfo{
+    margin: 25px 0px;
+    width: 100%;
+    
+    
+}
+
+.placeInfo div img{
+    float: left;
+    width: 40%;
+    margin: 20px 5%;
+    padding: 0px 0px;
+    border: solid #000814 5px;
+    border-radius: 2%;
+    height: 300px;
+
+}
+.placeInfo div article{
+    width: 40%;
+    display: inline-block;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.placeInfo div article h3{
+    margin-top: 30px;
+    padding: 15px 0px;
+    color: #000814;
+    font-size: 25px;
+}
+
+.placeInfo div article p{
+    margin-top: 3px;
+    padding: 5px 0px;
+    color: #000814;
+    font-size: 18px;
+}
+.placeInfo div{
+    height: 350px;
+}
+
+
+
