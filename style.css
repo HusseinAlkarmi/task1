@@ -18,9 +18,10 @@ nav{
 nav img{
     
     width: 70px;
+    height: 37px;
     float: left;
     position: relative;
-    top: 8px;
+    top: 11px;
     left: 30px;
 }
 
@@ -172,6 +173,7 @@ footer {
     padding: 5px 0px;
     color: #000814;
     font-size: 18px;
+    text-align: justify;
 }
 .placeInfo div{
     height: 350px;
